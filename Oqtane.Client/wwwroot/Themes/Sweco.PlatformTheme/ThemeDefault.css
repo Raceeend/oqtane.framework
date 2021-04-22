@@ -1,0 +1,70 @@
+/* Oqtane Styles */
+/*https://fontawesome.com/icons?d=gallery&p=2*/
+
+body {
+    padding-top: 4em;
+}
+
+/*.container {
+    max-width: 100%;
+}*/
+
+.controls-group {
+    padding-right: 10px;
+}
+
+.app-logo {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+/* override Sweco Bootstrap*/
+@media (min-width: 10px) {
+    body.win .navbar.fixed-bottom, body.win .navbar.fixed-top {
+        padding-left: 20px !important;
+    }
+
+    ul.navbar {
+        float: left;
+    }
+
+    li a.nav-link {
+        display: block;
+    }
+
+    .container{
+        max-width:100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        display: flex;
+        order: 0;
+        margin-top: .55em;
+        padding-bottom: 0;
+    }
+
+    .navbar .navbar-collapse {
+        padding-bottom: 0;
+    }
+}
+.show .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-item.active {
+    background-color: #617295;
+}
+.navbar-toggler {
+    position: unset;
+}
+.dropdown-toggle:not(.btn-secondary):after {
+    background-color: #617295;
+}
+
+.modal .modal-content .modal-header .close {
+    background-image:none;
+}
+
