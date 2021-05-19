@@ -1,1 +1,6 @@
 /* Module Custom Styles */
+
+.ndw-table td {
+    vertical-align: middle;
+}
+
